@@ -1,5 +1,8 @@
 all: compile link
 
+1:
+	clean test
+
 test: compile link run
 
 compile:
@@ -13,3 +16,4 @@ clean:
 
 run:
 	main.exe
+
